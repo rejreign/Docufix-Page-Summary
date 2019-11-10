@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Paraphrasing Tool</title>
+    <title>Summarizing Tool</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#3B1F9E" />
@@ -85,7 +85,7 @@
                                 src="https://res.cloudinary.com/tolulopedavid/image/upload/v1571517958/docufix/comp_xjwqsh.png">
                         </div>
                         <div class="col-md-8 col-xs-12 mt-4 text-left">
-                            <p class="para_p ">Paraphrase file</p>
+                            <p class="para_p ">Summarize file</p>
                             <p class="para_p2"> Docufix is one of the most innovative Technology of our age. Built
                                 solidly with the latest technical tools for file and data management.</p>
                         </div>
@@ -122,10 +122,10 @@
                         <textarea name="text" placeholder="Original Text" required></textarea>
                     </div>
                     <div class="col-md-2 col-xs-12 text-center">
-                        <input type="submit" class="para_btn" value="Paraphrase">&nbsp;&nbsp;
+                        <input type="submit" class="para_btn" value="Summarize">&nbsp;&nbsp;
                     </div>
                     <div class="col-md-5 col-xs-12">
-                        <textarea placeholder="Paraphrased Text" readonly>
+                        <textarea placeholder="Summarized Text" readonly>
                             {% if report%}
                                 {%for i in range(0, length)%}
                                 {{report[i]}}
