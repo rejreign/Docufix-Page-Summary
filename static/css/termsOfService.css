@@ -1,0 +1,379 @@
+*{
+    scroll-behavior: smooth;
+}
+html{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nunito',sans-serif !important;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(bottom, #FFFFFF  70%, #3B1F9E 30%);
+    background-image: -o-linear-gradient(bottom,  #FFFFFF 70%, #3B1F9E 30%);
+    background-image: -moz-linear-gradient(bottom,  #FFFFFF 70%, #3B1F9E 30%);
+    background-image: -webkit-linear-gradient(bottom,  #FFFFFF 70%, #3B1F9E 30%);
+    background-image: -ms-linear-gradient(bottom,  #FFFFFF 70%, #3B1F9E 30%);
+    
+    
+}
+h1{
+    font-size: 2em !important;
+    line-height: calc(33/16)em;
+    color: rgba(12, 10, 90, 0.8) !important;
+}
+#Introduction h2{
+    font-size: 2em;
+    line-height: calc(33/16)em;
+    font-weight: bold;
+    color: #ffffff !important;
+}
+.btn-link{
+    color: rgba(12, 10, 90, 0.8) !important;
+    font-size: 0.8em !important;
+    text-decoration: none !important;
+}
+.btn-link:hover{
+    color: #3B1F9E !important;
+    text-decoration: none !important;
+}
+.card-header{
+    background-color: #FFFFFF !important;
+    border-bottom: 1px solid #3B1F9E !important;
+}
+.list-inline-item a{
+    color:  #828282 !important;
+}
+p{
+    text-align: justify;
+}
+#disclaimer{
+    border-radius: 25px !important;
+    border: 1px solid #3B1F9E !important;
+    text-decoration: none !important;
+    font-size: 1.3em !important;
+    font-weight: normal !important;
+    color: #3B1F9E !important;
+    width: 12.5rem !important;
+    height: auto ;
+    text-align: center;
+    margin: 0 auto;
+}
+#disclaimer:hover{
+    border: none !important;
+    color: #FFFFFF !important;
+    background-color: #3B1F9E !important;
+    text-align: center;
+    margin: 0 auto;
+}
+.accordion{
+    border-radius: 10px !important;
+}
+a{
+    text-decoration: none !important;
+}
+.btn-primary{
+    color: #3B1F9E !important;
+    background-color: #ffffff !important;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 0.875em;
+    line-height: 1.1675em;
+    width: 14.1875em;
+    height: 2.5em;
+   
+    border: 1px solid #FFFFFF !important;
+    border-radius: 20px !important;
+}
+#Introduction{
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    
+}
+
+.navbar{
+    
+    background-color: #3B1F9E;
+    color: #FFFFFF !important;
+}
+.nav-link {
+    color: #FFFFFF !important;
+}
+.nav-link:hover{
+    background-color: #FFFFFF !important;
+    color: #3B1F9E !important;
+}
+#container{
+    background-color: #FFFFFF !important;
+    border: 1px solid rgba(196, 196, 196, 0.4);
+    border-radius: 10px !important;
+}
+.navbar-dark{
+    color: #FFFFFF !important;
+}
+.fa-bars{
+    color: #FFFFFF !important;
+}
+@media only screen and (max-width:450px){
+    body{
+        text-align: center;
+        background-image: linear-gradient(bottom, #FFFFFF  80%, #3B1F9E 20%);
+        background-image: -o-linear-gradient(bottom,  #FFFFFF 80%, #3B1F9E 20%);
+        background-image: -moz-linear-gradient(bottom,  #FFFFFF 80%, #3B1F9E 20%);
+        background-image: -webkit-linear-gradient(bottom,  #FFFFFF 80%, #3B1F9E 20%);
+        background-image: -ms-linear-gradient(bottom,  #FFFFFF 80%, #3B1F9E 20%);  
+    }
+    #Introduction h3{
+        font-size: 1.5em;
+    }
+    #Introduction{
+        margin-top:30%;
+    }
+    h2{
+        font-size: 1em;
+        text-align: center;
+    }
+     .section{
+         margin: 0;
+     }   
+     
+}
+.accordion .card {
+	border: none;
+	margin-bottom: 8px;
+	margin-bottom: 0.5rem;
+	background-color: transparent;
+}
+
+.accordion .card-header {
+	padding: 0;
+	border: none;
+	background: none;
+}
+
+.accordion .card-header a {
+	font-size: 1.2em;
+	font-weight: normal;
+	padding: 1rem 1.25rem 1rem 2.25rem;
+    display: block;
+    color: #3B1F9E !important;
+	border-radius: 4px;
+    position: relative;
+    margin: 10px 20px;
+}
+.card-body{
+    background-color: #FFFFFF !important;
+    text-align: justify;
+    color: #3B1F9E !important;
+} 
+.col-sm-12{
+    background-color: #FFFFFF !important;
+    border-radius: 10px !important; 
+}
+
+.accordion:not(.accordion-alternate) .card-header a {
+	background-color: #2dbe60;
+	color: #fff;
+}
+
+.accordion:not(.accordion-alternate) .card-header a.collapsed {
+	background-color: #f1f2f4;
+	color: #4c4d4d;
+}
+
+.accordion .card-header a:before {
+	position: absolute;
+	content: " ";
+	left: 20px;
+	top: calc(50% + 2px);
+	width: 9px;
+	height: 9px;
+	border-color: #CCC;
+	border-top: 2px solid;
+	border-right: 2px solid;
+	-webkit-transform: translate(-50%, -50%) rotate(-45deg);
+	transform: translate(-50%, -50%) rotate(-45deg);
+	-webkit-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.accordion .card-header a.collapsed:before {
+	top: calc(50% - 2px);
+	-webkit-transform: translate(-50%, -50%) rotate(135deg);
+	transform: translate(-50%, -50%) rotate(135deg);
+}
+
+.accordion .card-body {
+	line-height: 26px;
+	padding: 1rem 0 1rem 2.25rem;
+}
+
+.accordion.arrow-right .card-header a {
+	padding-left: 1.25rem;
+}
+
+.accordion.arrow-right .card-header a:before {
+	right: 15px;
+	left: auto;
+}
+
+.accordion.accordion-alternate .card {
+	margin: 0;
+}
+
+.accordion.accordion-alternate .card-header a {
+	padding-left: 1.40rem;
+	border-top: 1px solid #e4e9ec;
+	border-radius: 0px;
+}
+
+.accordion.accordion-alternate .card:first-of-type .card-header a {
+	border-top: 0px;
+}
+
+.accordion.accordion-alternate .card-header a:before {
+	left: 6px;
+}
+
+.accordion.accordion-alternate .card-header a.collapsed {
+	color: #4c4d4d;
+}
+
+.accordion.accordion-alternate .card-body {
+	padding: 0rem 0 1rem 1.25rem;
+}
+
+.accordion.accordion-alternate.arrow-right .card-header a {
+	padding-left: 0;
+}
+
+.accordion.accordion-alternate.arrow-right .card-header a:before {
+	right: 0px;
+	left: auto;
+}
+
+.accordion.toggle .card-header a:before {
+	content: "-";
+	border: none;
+	font-size: 20px;
+	height: auto;
+	top: calc(50% + 2px);
+	width: auto;
+	-webkit-transform: translate(-50%, -50%) rotate(180deg);
+	transform: translate(-50%, -50%) rotate(180deg);
+}
+
+.accordion.toggle .card-header a.collapsed:before {
+	content: "+";
+	top: calc(50% - 1px);
+	-webkit-transform: translate(-50%, -50%) rotate(0deg);
+	transform: translate(-50%, -50%) rotate(0deg);
+}
+
+.accordion.accordion-alternate.style-2 .card-header a {
+	padding-left: 0px;
+}
+
+.accordion.accordion-alternate.style-2 .card-header a:before {
+	right: 2px;
+	left: auto;
+	-webkit-transform: translate(-50%, -50%) rotate(135deg);
+	transform: translate(-50%, -50%) rotate(135deg);
+	top: 50%;
+}
+
+.accordion.accordion-alternate.style-2 .card-header a.collapsed:before {
+	-webkit-transform: translate(-50%, -50%) rotate(45deg);
+	transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.accordion.accordion-alternate.style-2 .card-body {
+	padding-left: 0px;
+}
+
+.accordion.accordion-alternate.popularRoutes .card-header .nav {
+	margin-top: 3px;
+}
+
+.accordion.accordion-alternate.popularRoutes .card-header .nav a {
+	font-size: 14px;
+}
+
+.accordion.accordion-alternate.popularRoutes .card-header a {
+	padding: 0px 8px 0px 0px;
+	border: none;
+	font-size: inherit;
+}
+
+.accordion.accordion-alternate.popularRoutes .card-header a:before {
+	content: none;
+}
+
+.accordion.accordion-alternate.popularRoutes .card-header h5 {
+	cursor: pointer;
+}
+
+.accordion.accordion-alternate.popularRoutes .card-header h5:before {
+	position: absolute;
+	content: " ";
+	right: 0px;
+	top: 24px;
+	width: 10px;
+	height: 10px;
+	opacity: 0.6;
+	border-top: 2px solid;
+	border-right: 2px solid;
+	-webkit-transform: translate(-50%, -50%) rotate(-45deg);
+	transform: translate(-50%, -50%) rotate(-45deg);
+	-webkit-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.accordion.accordion-alternate.popularRoutes .card-header h5.collapsed:before {
+	top: 24px;
+	-webkit-transform: translate(-50%, -50%) rotate(135deg);
+	transform: translate(-50%, -50%) rotate(135deg);
+}
+
+.accordion.accordion-alternate.popularRoutes .card-body {
+	padding: 0;
+}
+
+.accordion.accordion-alternate.popularRoutes .card {
+	border-bottom: 2px solid #e4e9ec;
+	padding: 15px 0px;
+}
+
+.accordion.accordion-alternate.popularRoutes .routes-list {
+	margin: 1rem 0px 0px 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.accordion.accordion-alternate.popularRoutes .routes-list a {
+	color: inherit;
+	display: -ms-flexbox !important;
+	display: flex !important;
+	-ms-flex-align: center !important;
+	align-items: center !important;
+}
+
+.accordion.accordion-alternate.popularRoutes .routes-list a:hover {
+	color: #0071cc;
+	text-decoration: none !important;
+}
+
+.card {
+	min-height: 0px
+}
+
+.card-header h5.mb-0 {
+	padding: 0px;
+}
