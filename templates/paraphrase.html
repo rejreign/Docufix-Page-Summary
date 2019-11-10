@@ -125,7 +125,7 @@
                         <input type="submit" class="para_btn" value="Paraphrase">&nbsp;&nbsp;
                     </div>
                     <div class="col-md-5 col-xs-12">
-                        <textarea placeholder="Paraphrased Text">
+                        <textarea placeholder="Paraphrased Text" readonly>
                             {% if report%}
                                 {%for i in range(0, length)%}
                                 {{report[i]}}
